@@ -1,0 +1,7 @@
+[01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:[m[K In member function ‘[01m[Kvoid ADS1115::measure()[m[K’:
+[01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:39:41:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""_RDWR[m[K’
+   39 |       if ((file = open(I2C_DEVICE_FILE, [01;31m[K0_RDWR[m[K)) < 0) {
+      |                                         [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/battery_monitor.dir/build.make:76: CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/battery_monitor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

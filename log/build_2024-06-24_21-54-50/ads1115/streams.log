@@ -1,0 +1,18 @@
+[0.043s] Invoking command in '/home/user/ws/build/ads1115': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ws/build/ads1115 -- -j4 -l4
+[0.206s] [35m[1mConsolidate compiler generated dependencies of target battery_monitor[0m
+[0.289s] [ 50%] [32mBuilding CXX object CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o[0m
+[9.365s] [01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:[m[K In constructor ‘[01m[KADS1115::ADS1115()[m[K’:
+[9.366s] [01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:11:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ADS1115[m[K’ has no member named ‘[01m[Kcreate_walltimer[m[K’; did you mean ‘[01m[Kcreate_wall_timer[m[K’?
+[9.367s]    11 |                 auto timer = this->[01;31m[Kcreate_walltimer[m[K(1s, std::bind(&ADS1115::callback, this);
+[9.367s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[9.368s]       |                                    [32m[Kcreate_wall_timer[m[K
+[9.382s] [01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:11:92:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[9.383s]    11 |                 auto timer = this->create_walltimer(1s, std::bind(&ADS1115::callback, this)[01;31m[K;[m[K
+[9.383s]       |                                                                                            [01;31m[K^[m[K
+[9.383s] [01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:11:52:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[9.384s]    11 |                 auto timer = this->create_walltimer[01;36m[K([m[K1s, std::bind(&ADS1115::callback, this);
+[9.384s]       |                                                    [01;36m[K^[m[K
+[10.880s] gmake[2]: *** [CMakeFiles/battery_monitor.dir/build.make:76: CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o] Error 1
+[10.881s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/battery_monitor.dir/all] Error 2
+[10.881s] gmake: *** [Makefile:146: all] Error 2
+[10.887s] Invoked command in '/home/user/ws/build/ads1115' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ws/build/ads1115 -- -j4 -l4

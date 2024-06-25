@@ -1,0 +1,4 @@
+Invoking command in '/home/user/ws/build/ADS1115': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/ws/src/ADS1115 -DCMAKE_INSTALL_PREFIX=/home/user/ws/install/ADS1115
+Invoked command in '/home/user/ws/build/ADS1115' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/ws/src/ADS1115 -DCMAKE_INSTALL_PREFIX=/home/user/ws/install/ADS1115
+Invoking command in '/home/user/ws/build/ADS1115': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ws/build/ADS1115 -- -j4 -l4
+Invoked command in '/home/user/ws/build/ADS1115' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ws/build/ADS1115 -- -j4 -l4

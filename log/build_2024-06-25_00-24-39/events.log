@@ -1,0 +1,206 @@
+[0.000000] (-) TimerEvent: {}
+[0.001279] (ads1115) JobQueued: {'identifier': 'ads1115', 'dependencies': OrderedDict()}
+[0.001747] (ads1115) JobStarted: {'identifier': 'ads1115'}
+[0.033586] (ads1115) JobProgress: {'identifier': 'ads1115', 'progress': 'cmake'}
+[0.036713] (ads1115) JobProgress: {'identifier': 'ads1115', 'progress': 'build'}
+[0.039967] (ads1115) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ws/build/ads1115', '--', '-j4', '-l4'], 'cwd': '/home/user/ws/build/ads1115', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,1138,0'), ('USER', 'user'), ('SSH_CLIENT', '192.168.88.186 59532 22'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ws/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('PWD', '/home/user/ws/build/ads1115'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.88.186 59532 192.168.88.93 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098150] (-) TimerEvent: {}
+[0.143444] (ads1115) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.198276] (-) TimerEvent: {}
+[0.298949] (-) TimerEvent: {}
+[0.399672] (-) TimerEvent: {}
+[0.500487] (-) TimerEvent: {}
+[0.601266] (-) TimerEvent: {}
+[0.665299] (ads1115) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.701411] (-) TimerEvent: {}
+[0.794484] (ads1115) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.801573] (-) TimerEvent: {}
+[0.805007] (ads1115) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.828444] (ads1115) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.871404] (ads1115) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.901745] (-) TimerEvent: {}
+[0.931766] (ads1115) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.001911] (-) TimerEvent: {}
+[1.102555] (-) TimerEvent: {}
+[1.148425] (ads1115) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.153864] (ads1115) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.202704] (-) TimerEvent: {}
+[1.303348] (-) TimerEvent: {}
+[1.403973] (-) TimerEvent: {}
+[1.504621] (-) TimerEvent: {}
+[1.605250] (-) TimerEvent: {}
+[1.652809] (ads1115) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.705428] (-) TimerEvent: {}
+[1.806147] (-) TimerEvent: {}
+[1.906803] (-) TimerEvent: {}
+[2.007457] (-) TimerEvent: {}
+[2.108112] (-) TimerEvent: {}
+[2.208804] (-) TimerEvent: {}
+[2.237840] (ads1115) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.308962] (-) TimerEvent: {}
+[2.409642] (-) TimerEvent: {}
+[2.510335] (-) TimerEvent: {}
+[2.610990] (-) TimerEvent: {}
+[2.711716] (-) TimerEvent: {}
+[2.750007] (ads1115) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.812039] (-) TimerEvent: {}
+[2.913040] (-) TimerEvent: {}
+[3.013701] (-) TimerEvent: {}
+[3.041602] (ads1115) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.042267] (ads1115) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/user/ws/src/ads1115/include>\n'}
+[3.042613] (ads1115) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.045484] (ads1115) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.052060] (ads1115) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.052599] (ads1115) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.053916] (ads1115) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.057436] (ads1115) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.112046] (ads1115) StdoutLine: {'line': b'-- Generating done\n'}
+[3.113822] (-) TimerEvent: {}
+[3.119709] (ads1115) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ws/build/ads1115\n'}
+[3.213257] (ads1115) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_monitor\x1b[0m\n'}
+[3.213862] (-) TimerEvent: {}
+[3.297171] (ads1115) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o\x1b[0m\n'}
+[3.314103] (-) TimerEvent: {}
+[3.414935] (-) TimerEvent: {}
+[3.515592] (-) TimerEvent: {}
+[3.616219] (-) TimerEvent: {}
+[3.716887] (-) TimerEvent: {}
+[3.817564] (-) TimerEvent: {}
+[3.918198] (-) TimerEvent: {}
+[4.018844] (-) TimerEvent: {}
+[4.119500] (-) TimerEvent: {}
+[4.220298] (-) TimerEvent: {}
+[4.320989] (-) TimerEvent: {}
+[4.421669] (-) TimerEvent: {}
+[4.522322] (-) TimerEvent: {}
+[4.622999] (-) TimerEvent: {}
+[4.723676] (-) TimerEvent: {}
+[4.824387] (-) TimerEvent: {}
+[4.925137] (-) TimerEvent: {}
+[5.025889] (-) TimerEvent: {}
+[5.126602] (-) TimerEvent: {}
+[5.227338] (-) TimerEvent: {}
+[5.328072] (-) TimerEvent: {}
+[5.428806] (-) TimerEvent: {}
+[5.529655] (-) TimerEvent: {}
+[5.630394] (-) TimerEvent: {}
+[5.731200] (-) TimerEvent: {}
+[5.831986] (-) TimerEvent: {}
+[5.932725] (-) TimerEvent: {}
+[6.033463] (-) TimerEvent: {}
+[6.134189] (-) TimerEvent: {}
+[6.234915] (-) TimerEvent: {}
+[6.335679] (-) TimerEvent: {}
+[6.436497] (-) TimerEvent: {}
+[6.537206] (-) TimerEvent: {}
+[6.638061] (-) TimerEvent: {}
+[6.738747] (-) TimerEvent: {}
+[6.839448] (-) TimerEvent: {}
+[6.940167] (-) TimerEvent: {}
+[7.040964] (-) TimerEvent: {}
+[7.141768] (-) TimerEvent: {}
+[7.242478] (-) TimerEvent: {}
+[7.343184] (-) TimerEvent: {}
+[7.443986] (-) TimerEvent: {}
+[7.544692] (-) TimerEvent: {}
+[7.645458] (-) TimerEvent: {}
+[7.746225] (-) TimerEvent: {}
+[7.846944] (-) TimerEvent: {}
+[7.947665] (-) TimerEvent: {}
+[8.048395] (-) TimerEvent: {}
+[8.149092] (-) TimerEvent: {}
+[8.249843] (-) TimerEvent: {}
+[8.350573] (-) TimerEvent: {}
+[8.451265] (-) TimerEvent: {}
+[8.551987] (-) TimerEvent: {}
+[8.652687] (-) TimerEvent: {}
+[8.753419] (-) TimerEvent: {}
+[8.854172] (-) TimerEvent: {}
+[8.954872] (-) TimerEvent: {}
+[9.055583] (-) TimerEvent: {}
+[9.156341] (-) TimerEvent: {}
+[9.257039] (-) TimerEvent: {}
+[9.357837] (-) TimerEvent: {}
+[9.458534] (-) TimerEvent: {}
+[9.559258] (-) TimerEvent: {}
+[9.659972] (-) TimerEvent: {}
+[9.760689] (-) TimerEvent: {}
+[9.861371] (-) TimerEvent: {}
+[9.962111] (-) TimerEvent: {}
+[10.062811] (-) TimerEvent: {}
+[10.163541] (-) TimerEvent: {}
+[10.264237] (-) TimerEvent: {}
+[10.364965] (-) TimerEvent: {}
+[10.465672] (-) TimerEvent: {}
+[10.566360] (-) TimerEvent: {}
+[10.667061] (-) TimerEvent: {}
+[10.767806] (-) TimerEvent: {}
+[10.868526] (-) TimerEvent: {}
+[10.969292] (-) TimerEvent: {}
+[11.070036] (-) TimerEvent: {}
+[11.170757] (-) TimerEvent: {}
+[11.271462] (-) TimerEvent: {}
+[11.372169] (-) TimerEvent: {}
+[11.472866] (-) TimerEvent: {}
+[11.573602] (-) TimerEvent: {}
+[11.674299] (-) TimerEvent: {}
+[11.775083] (-) TimerEvent: {}
+[11.875844] (-) TimerEvent: {}
+[11.976594] (-) TimerEvent: {}
+[12.077319] (-) TimerEvent: {}
+[12.178067] (-) TimerEvent: {}
+[12.278789] (-) TimerEvent: {}
+[12.379530] (-) TimerEvent: {}
+[12.480243] (-) TimerEvent: {}
+[12.580992] (-) TimerEvent: {}
+[12.611028] (ads1115) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:29:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of template-name \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher\x1b[m\x1b[K\xe2\x80\x99 without an argument list\n'}
+[12.611879] (ads1115) StderrLine: {'line': b'   29 |     \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::Publisher::SharedPtr pub;\n'}
+[12.612280] (ads1115) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[12.612677] (ads1115) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:29:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[12.613065] (ads1115) StderrLine: {'line': b'   29 |     rclcpp::Publisher::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K pub;\n'}
+[12.613421] (ads1115) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[12.613890] (ads1115) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[12.616021] (ads1115) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:29:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[12.616554] (ads1115) StderrLine: {'line': b'   29 |     rclcpp::Publisher::SharedPtr \x1b[01;31m\x1b[Kpub\x1b[m\x1b[K;\n'}
+[12.616971] (ads1115) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[12.668167] (ads1115) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KADS1115::ADS1115()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.668723] (ads1115) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:24:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[12.669162] (ads1115) StderrLine: {'line': b'   24 |       \x1b[01;31m\x1b[Kpub\x1b[m\x1b[K = this->create_publisher<sensor_msgs::msg::BatteryState>("battery_state", 10);\n'}
+[12.669557] (ads1115) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[12.681176] (-) TimerEvent: {}
+[12.701774] (ads1115) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ADS1115::call()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.702330] (ads1115) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:37:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[12.702610] (ads1115) StderrLine: {'line': b'   37 |       \x1b[01;31m\x1b[Kpub\x1b[m\x1b[K->publish(msg);\n'}
+[12.702859] (ads1115) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[12.781358] (-) TimerEvent: {}
+[12.882110] (-) TimerEvent: {}
+[12.982819] (-) TimerEvent: {}
+[13.083520] (-) TimerEvent: {}
+[13.184238] (-) TimerEvent: {}
+[13.284963] (-) TimerEvent: {}
+[13.385669] (-) TimerEvent: {}
+[13.486359] (-) TimerEvent: {}
+[13.587066] (-) TimerEvent: {}
+[13.687774] (-) TimerEvent: {}
+[13.788521] (-) TimerEvent: {}
+[13.889227] (-) TimerEvent: {}
+[13.989961] (-) TimerEvent: {}
+[14.090669] (-) TimerEvent: {}
+[14.191376] (-) TimerEvent: {}
+[14.292078] (-) TimerEvent: {}
+[14.392804] (-) TimerEvent: {}
+[14.493602] (-) TimerEvent: {}
+[14.594324] (-) TimerEvent: {}
+[14.695022] (-) TimerEvent: {}
+[14.795736] (-) TimerEvent: {}
+[14.896591] (-) TimerEvent: {}
+[14.997693] (-) TimerEvent: {}
+[15.098413] (-) TimerEvent: {}
+[15.123117] (ads1115) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/battery_monitor.dir/build.make:76: CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o] Error 1\n'}
+[15.123964] (ads1115) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/battery_monitor.dir/all] Error 2\n'}
+[15.124803] (ads1115) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.130582] (ads1115) CommandEnded: {'returncode': 2}
+[15.198576] (-) TimerEvent: {}
+[15.299280] (-) TimerEvent: {}
+[15.301331] (ads1115) JobEnded: {'identifier': 'ads1115', 'rc': 2}
+[15.313214] (-) EventReactorShutdown: {}

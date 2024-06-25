@@ -1,0 +1,7 @@
+[01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:[m[K In constructor ‘[01m[KADS1115::ADS1115()[m[K’:
+[01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:21:54:[m[K [01;31m[Kerror: [m[K‘[01m[KADS11115[m[K’ has not been declared
+   21 |       timer = this->create_wall_timer(1s, std::bind(&[01;31m[KADS11115[m[K::call, this));
+      |                                                      [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/battery_monitor.dir/build.make:76: CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/battery_monitor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

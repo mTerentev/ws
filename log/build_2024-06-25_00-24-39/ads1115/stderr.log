@@ -1,0 +1,21 @@
+[01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:29:5:[m[K [01;31m[Kerror: [m[Kinvalid use of template-name ‘[01m[Krclcpp::Publisher[m[K’ without an argument list
+   29 |     [01;31m[Krclcpp[m[K::Publisher::SharedPtr pub;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:29:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   29 |     rclcpp::Publisher::[01;31m[KSharedPtr[m[K pub;
+      |                        [01;31m[K^~~~~~~~~[m[K
+      |                                 [32m[K;[m[K
+[01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:29:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ does not name a type
+   29 |     rclcpp::Publisher::SharedPtr [01;31m[Kpub[m[K;
+      |                                  [01;31m[K^~~[m[K
+[01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:[m[K In constructor ‘[01m[KADS1115::ADS1115()[m[K’:
+[01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:24:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+   24 |       [01;31m[Kpub[m[K = this->create_publisher<sensor_msgs::msg::BatteryState>("battery_state", 10);
+      |       [01;31m[K^~~[m[K
+[01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:[m[K In member function ‘[01m[Kvoid ADS1115::call()[m[K’:
+[01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:37:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+   37 |       [01;31m[Kpub[m[K->publish(msg);
+      |       [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/battery_monitor.dir/build.make:76: CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/battery_monitor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

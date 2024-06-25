@@ -1,0 +1,26 @@
+[0.041s] Invoking command in '/home/user/ws/build/ads1115': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ws/build/ads1115 -- -j4 -l4
+[0.209s] [35m[1mConsolidate compiler generated dependencies of target battery_monitor[0m
+[0.293s] [ 50%] [32mBuilding CXX object CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o[0m
+[17.042s] [100%] [32m[1mLinking CXX executable battery_monitor[0m
+[17.978s] [100%] Built target battery_monitor
+[18.014s] Invoked command in '/home/user/ws/build/ads1115' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ws/build/ads1115 -- -j4 -l4
+[18.175s] Invoking command in '/home/user/ws/build/ads1115': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/ws/build/ads1115
+[18.200s] -- Install configuration: ""
+[18.201s] -- Installing: /home/user/ws/install/ads1115/lib/ads1115/battery_monitor
+[18.211s] -- Set runtime path of "/home/user/ws/install/ads1115/lib/ads1115/battery_monitor" to ""
+[18.212s] -- Up-to-date: /home/user/ws/install/ads1115/share/ament_index/resource_index/package_run_dependencies/ads1115
+[18.212s] -- Up-to-date: /home/user/ws/install/ads1115/share/ament_index/resource_index/parent_prefix_path/ads1115
+[18.212s] -- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/environment/ament_prefix_path.sh
+[18.213s] -- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/environment/ament_prefix_path.dsv
+[18.213s] -- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/environment/path.sh
+[18.214s] -- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/environment/path.dsv
+[18.214s] -- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/local_setup.bash
+[18.214s] -- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/local_setup.sh
+[18.215s] -- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/local_setup.zsh
+[18.215s] -- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/local_setup.dsv
+[18.215s] -- Installing: /home/user/ws/install/ads1115/share/ads1115/package.dsv
+[18.216s] -- Up-to-date: /home/user/ws/install/ads1115/share/ament_index/resource_index/packages/ads1115
+[18.216s] -- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/cmake/ads1115Config.cmake
+[18.216s] -- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/cmake/ads1115Config-version.cmake
+[18.217s] -- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/package.xml
+[18.222s] Invoked command in '/home/user/ws/build/ads1115' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/ws/build/ads1115

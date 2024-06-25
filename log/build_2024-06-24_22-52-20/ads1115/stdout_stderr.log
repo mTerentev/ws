@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target battery_monitor[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o[0m
+[01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:[m[K In member function ‘[01m[Kvoid ADS1115::measure()[m[K’:
+[01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:28:41:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""_RDWR[m[K’
+   28 |       if ((file = open(I2C_DEVICE_FILE, [01;31m[K0_RDWR[m[K)) < 0) {
+      |                                         [01;31m[K^~~~~~[m[K
+[01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:28:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kopen[m[K’ was not declared in this scope; did you mean ‘[01m[Kpopen[m[K’?
+   28 |       if ((file = [01;31m[Kopen[m[K(I2C_DEVICE_FILE, 0_RDWR)) < 0) {
+      |                   [01;31m[K^~~~[m[K
+      |                   [32m[Kpopen[m[K
+[01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:33:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kioctl[m[K’ was not declared in this scope
+   33 |       if ([01;31m[Kioctl[m[K(file, I2C_SLAVE, ADS1115_ADDRESS) < 0) {
+      |           [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/battery_monitor.dir/build.make:76: CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/battery_monitor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

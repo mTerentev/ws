@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target battery_monitor[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o[0m
+[01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kglib.h: No such file or directory
+    3 | #include [01;31m[K<glib.h>[m[K
+      |          [01;31m[K^~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/battery_monitor.dir/build.make:76: CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/battery_monitor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

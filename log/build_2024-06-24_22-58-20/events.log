@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.001581] (ads1115) JobQueued: {'identifier': 'ads1115', 'dependencies': OrderedDict()}
+[0.002311] (ads1115) JobStarted: {'identifier': 'ads1115'}
+[0.032535] (ads1115) JobProgress: {'identifier': 'ads1115', 'progress': 'cmake'}
+[0.035552] (ads1115) JobProgress: {'identifier': 'ads1115', 'progress': 'build'}
+[0.039006] (ads1115) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ws/build/ads1115', '--', '-j4', '-l4'], 'cwd': '/home/user/ws/build/ads1115', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,1138,0'), ('USER', 'user'), ('SSH_CLIENT', '192.168.88.186 59532 22'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ws/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('PWD', '/home/user/ws/build/ads1115'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.88.186 59532 192.168.88.93 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098765] (-) TimerEvent: {}
+[0.199651] (-) TimerEvent: {}
+[0.265190] (ads1115) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o\x1b[0m\n'}
+[0.299908] (-) TimerEvent: {}
+[0.400711] (-) TimerEvent: {}
+[0.501393] (-) TimerEvent: {}
+[0.602094] (-) TimerEvent: {}
+[0.702802] (-) TimerEvent: {}
+[0.803469] (-) TimerEvent: {}
+[0.904160] (-) TimerEvent: {}
+[1.004846] (-) TimerEvent: {}
+[1.105542] (-) TimerEvent: {}
+[1.206252] (-) TimerEvent: {}
+[1.306921] (-) TimerEvent: {}
+[1.407573] (-) TimerEvent: {}
+[1.508332] (-) TimerEvent: {}
+[1.609287] (-) TimerEvent: {}
+[1.709986] (-) TimerEvent: {}
+[1.810689] (-) TimerEvent: {}
+[1.911396] (-) TimerEvent: {}
+[2.012116] (-) TimerEvent: {}
+[2.112834] (-) TimerEvent: {}
+[2.213534] (-) TimerEvent: {}
+[2.314269] (-) TimerEvent: {}
+[2.415028] (-) TimerEvent: {}
+[2.515772] (-) TimerEvent: {}
+[2.616571] (-) TimerEvent: {}
+[2.717383] (-) TimerEvent: {}
+[2.818134] (-) TimerEvent: {}
+[2.918856] (-) TimerEvent: {}
+[3.019559] (-) TimerEvent: {}
+[3.120255] (-) TimerEvent: {}
+[3.221010] (-) TimerEvent: {}
+[3.321926] (-) TimerEvent: {}
+[3.422638] (-) TimerEvent: {}
+[3.523401] (-) TimerEvent: {}
+[3.624150] (-) TimerEvent: {}
+[3.724932] (-) TimerEvent: {}
+[3.825725] (-) TimerEvent: {}
+[3.926495] (-) TimerEvent: {}
+[4.027297] (-) TimerEvent: {}
+[4.128013] (-) TimerEvent: {}
+[4.228936] (-) TimerEvent: {}
+[4.329764] (-) TimerEvent: {}
+[4.430470] (-) TimerEvent: {}
+[4.531177] (-) TimerEvent: {}
+[4.631911] (-) TimerEvent: {}
+[4.732592] (-) TimerEvent: {}
+[4.833333] (-) TimerEvent: {}
+[4.934080] (-) TimerEvent: {}
+[5.034807] (-) TimerEvent: {}
+[5.135533] (-) TimerEvent: {}
+[5.236226] (-) TimerEvent: {}
+[5.336948] (-) TimerEvent: {}
+[5.437633] (-) TimerEvent: {}
+[5.538364] (-) TimerEvent: {}
+[5.639075] (-) TimerEvent: {}
+[5.739823] (-) TimerEvent: {}
+[5.840644] (-) TimerEvent: {}
+[5.941383] (-) TimerEvent: {}
+[6.042270] (-) TimerEvent: {}
+[6.143194] (-) TimerEvent: {}
+[6.243910] (-) TimerEvent: {}
+[6.344646] (-) TimerEvent: {}
+[6.445370] (-) TimerEvent: {}
+[6.546107] (-) TimerEvent: {}
+[6.646805] (-) TimerEvent: {}
+[6.747506] (-) TimerEvent: {}
+[6.848233] (-) TimerEvent: {}
+[6.948980] (-) TimerEvent: {}
+[7.049742] (-) TimerEvent: {}
+[7.150466] (-) TimerEvent: {}
+[7.251198] (-) TimerEvent: {}
+[7.351981] (-) TimerEvent: {}
+[7.452754] (-) TimerEvent: {}
+[7.553453] (-) TimerEvent: {}
+[7.654276] (-) TimerEvent: {}
+[7.754996] (-) TimerEvent: {}
+[7.855767] (-) TimerEvent: {}
+[7.956482] (-) TimerEvent: {}
+[8.057354] (-) TimerEvent: {}
+[8.158396] (-) TimerEvent: {}
+[8.259105] (-) TimerEvent: {}
+[8.359822] (-) TimerEvent: {}
+[8.460535] (-) TimerEvent: {}
+[8.561316] (-) TimerEvent: {}
+[8.662218] (-) TimerEvent: {}
+[8.762953] (-) TimerEvent: {}
+[8.863667] (-) TimerEvent: {}
+[8.964404] (-) TimerEvent: {}
+[9.065166] (-) TimerEvent: {}
+[9.165905] (-) TimerEvent: {}
+[9.266605] (-) TimerEvent: {}
+[9.367412] (-) TimerEvent: {}
+[9.426024] (ads1115) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ADS1115::measure()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.426638] (ads1115) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:39:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""_RDWR\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.427019] (ads1115) StderrLine: {'line': b'   39 |       if ((file = open(I2C_DEVICE_FILE, \x1b[01;31m\x1b[K0_RDWR\x1b[m\x1b[K)) < 0) {\n'}
+[9.427359] (ads1115) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.467587] (-) TimerEvent: {}
+[9.568307] (-) TimerEvent: {}
+[9.669039] (-) TimerEvent: {}
+[9.769796] (-) TimerEvent: {}
+[9.870509] (-) TimerEvent: {}
+[9.971215] (-) TimerEvent: {}
+[10.071921] (-) TimerEvent: {}
+[10.172659] (-) TimerEvent: {}
+[10.273383] (-) TimerEvent: {}
+[10.374145] (-) TimerEvent: {}
+[10.474856] (-) TimerEvent: {}
+[10.575567] (-) TimerEvent: {}
+[10.676285] (-) TimerEvent: {}
+[10.777028] (-) TimerEvent: {}
+[10.877750] (-) TimerEvent: {}
+[10.978620] (-) TimerEvent: {}
+[11.035192] (ads1115) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/battery_monitor.dir/build.make:76: CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o] Error 1\n'}
+[11.035974] (ads1115) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/battery_monitor.dir/all] Error 2\n'}
+[11.036787] (ads1115) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.042151] (ads1115) CommandEnded: {'returncode': 2}
+[11.078776] (-) TimerEvent: {}
+[11.179893] (-) TimerEvent: {}
+[11.213991] (ads1115) JobEnded: {'identifier': 'ads1115', 'rc': 2}
+[11.225763] (-) EventReactorShutdown: {}

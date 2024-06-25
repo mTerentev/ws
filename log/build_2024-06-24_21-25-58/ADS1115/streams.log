@@ -1,0 +1,10 @@
+[0.041s] Invoking command in '/home/user/ws/build/ADS1115': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ws/build/ADS1115 -- -j4 -l4
+[0.130s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.646s] [31mCMake Error at CMakeLists.txt:13 (find_packages):
+[0.647s]   Unknown CMake command "find_packages".
+[0.647s] 
+[0.647s] [0m
+[0.648s] -- Configuring incomplete, errors occurred!
+[0.648s] See also "/home/user/ws/build/ADS1115/CMakeFiles/CMakeOutput.log".
+[0.654s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.659s] Invoked command in '/home/user/ws/build/ADS1115' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ws/build/ADS1115 -- -j4 -l4

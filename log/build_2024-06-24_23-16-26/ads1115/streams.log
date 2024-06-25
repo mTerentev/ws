@@ -1,0 +1,14 @@
+[0.041s] Invoking command in '/home/user/ws/build/ads1115': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ws/build/ads1115 -- -j4 -l4
+[0.206s] [35m[1mConsolidate compiler generated dependencies of target battery_monitor[0m
+[0.285s] [ 50%] [32mBuilding CXX object CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o[0m
+[9.455s] [01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:[m[K In member function ‘[01m[Kvoid ADS1115::measure()[m[K’:
+[9.455s] [01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:45:12:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kchar buf [2][m[K’
+[9.456s]    45 |       char [01;31m[Kbuf[m[K[2] = {0};
+[9.456s]       |            [01;31m[K^~~[m[K
+[9.456s] [01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:42:12:[m[K [01;36m[Knote: [m[K‘[01m[Kchar buf [2][m[K’ previously declared here
+[9.457s]    42 |       char [01;36m[Kbuf[m[K[2] = {0};
+[9.457s]       |            [01;36m[K^~~[m[K
+[11.068s] gmake[2]: *** [CMakeFiles/battery_monitor.dir/build.make:76: CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o] Error 1
+[11.068s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/battery_monitor.dir/all] Error 2
+[11.069s] gmake: *** [Makefile:146: all] Error 2
+[11.075s] Invoked command in '/home/user/ws/build/ads1115' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ws/build/ads1115 -- -j4 -l4

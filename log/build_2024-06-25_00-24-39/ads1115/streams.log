@@ -1,0 +1,47 @@
+[0.042s] Invoking command in '/home/user/ws/build/ads1115': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ws/build/ads1115 -- -j4 -l4
+[0.142s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.664s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.793s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.803s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.827s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.870s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.930s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.147s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.152s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.651s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.236s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.749s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.040s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.041s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/user/ws/src/ads1115/include>
+[3.041s] -- Configured cppcheck exclude dirs and/or files: 
+[3.044s] -- Added test 'lint_cmake' to check CMake code style
+[3.051s] -- Added test 'uncrustify' to check C / C++ code style
+[3.051s] -- Configured uncrustify additional arguments: 
+[3.052s] -- Added test 'xmllint' to check XML markup files
+[3.056s] -- Configuring done
+[3.111s] -- Generating done
+[3.118s] -- Build files have been written to: /home/user/ws/build/ads1115
+[3.212s] [35m[1mConsolidate compiler generated dependencies of target battery_monitor[0m
+[3.296s] [ 50%] [32mBuilding CXX object CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o[0m
+[12.610s] [01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:29:5:[m[K [01;31m[Kerror: [m[Kinvalid use of template-name ‘[01m[Krclcpp::Publisher[m[K’ without an argument list
+[12.610s]    29 |     [01;31m[Krclcpp[m[K::Publisher::SharedPtr pub;
+[12.611s]       |     [01;31m[K^~~~~~[m[K
+[12.611s] [01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:29:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[12.611s]    29 |     rclcpp::Publisher::[01;31m[KSharedPtr[m[K pub;
+[12.612s]       |                        [01;31m[K^~~~~~~~~[m[K
+[12.612s]       |                                 [32m[K;[m[K
+[12.615s] [01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:29:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ does not name a type
+[12.615s]    29 |     rclcpp::Publisher::SharedPtr [01;31m[Kpub[m[K;
+[12.615s]       |                                  [01;31m[K^~~[m[K
+[12.667s] [01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:[m[K In constructor ‘[01m[KADS1115::ADS1115()[m[K’:
+[12.667s] [01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:24:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+[12.668s]    24 |       [01;31m[Kpub[m[K = this->create_publisher<sensor_msgs::msg::BatteryState>("battery_state", 10);
+[12.668s]       |       [01;31m[K^~~[m[K
+[12.700s] [01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:[m[K In member function ‘[01m[Kvoid ADS1115::call()[m[K’:
+[12.701s] [01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:37:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+[12.701s]    37 |       [01;31m[Kpub[m[K->publish(msg);
+[12.701s]       |       [01;31m[K^~~[m[K
+[15.122s] gmake[2]: *** [CMakeFiles/battery_monitor.dir/build.make:76: CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o] Error 1
+[15.122s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/battery_monitor.dir/all] Error 2
+[15.123s] gmake: *** [Makefile:146: all] Error 2
+[15.129s] Invoked command in '/home/user/ws/build/ads1115' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ws/build/ads1115 -- -j4 -l4

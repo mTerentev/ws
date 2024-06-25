@@ -1,0 +1,10 @@
+[0.043s] Invoking command in '/home/user/ws/build/ads1115': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ws/build/ads1115 -- -j4 -l4
+[0.263s] [ 50%] [32mBuilding CXX object CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o[0m
+[9.424s] [01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:[m[K In member function ‘[01m[Kvoid ADS1115::measure()[m[K’:
+[9.424s] [01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:39:41:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""_RDWR[m[K’
+[9.425s]    39 |       if ((file = open(I2C_DEVICE_FILE, [01;31m[K0_RDWR[m[K)) < 0) {
+[9.425s]       |                                         [01;31m[K^~~~~~[m[K
+[11.033s] gmake[2]: *** [CMakeFiles/battery_monitor.dir/build.make:76: CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o] Error 1
+[11.034s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/battery_monitor.dir/all] Error 2
+[11.035s] gmake: *** [Makefile:146: all] Error 2
+[11.040s] Invoked command in '/home/user/ws/build/ads1115' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ws/build/ads1115 -- -j4 -l4

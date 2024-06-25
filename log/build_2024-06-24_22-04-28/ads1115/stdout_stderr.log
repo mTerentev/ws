@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target battery_monitor[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o[0m
+[01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:19:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   19 |     rclcpp::TimerBase::SharedPtr [01;31m[Ktimer[m[K
+      |                                  [01;31m[K^~~~~[m[K
+      |                                       [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/battery_monitor.dir/build.make:76: CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/battery_monitor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,217 @@
+[0.000000] (-) TimerEvent: {}
+[0.001573] (ads1115) JobQueued: {'identifier': 'ads1115', 'dependencies': OrderedDict()}
+[0.002612] (ads1115) JobStarted: {'identifier': 'ads1115'}
+[0.032751] (ads1115) JobProgress: {'identifier': 'ads1115', 'progress': 'cmake'}
+[0.036087] (ads1115) JobProgress: {'identifier': 'ads1115', 'progress': 'build'}
+[0.039418] (ads1115) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ws/build/ads1115', '--', '-j4', '-l4'], 'cwd': '/home/user/ws/build/ads1115', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,1138,0'), ('USER', 'user'), ('SSH_CLIENT', '192.168.88.186 59532 22'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ws/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('PWD', '/home/user/ws/build/ads1115'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.88.186 59532 192.168.88.93 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099147] (-) TimerEvent: {}
+[0.200116] (-) TimerEvent: {}
+[0.207434] (ads1115) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_monitor\x1b[0m\n'}
+[0.289652] (ads1115) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o\x1b[0m\n'}
+[0.300294] (-) TimerEvent: {}
+[0.401001] (-) TimerEvent: {}
+[0.501676] (-) TimerEvent: {}
+[0.602308] (-) TimerEvent: {}
+[0.702960] (-) TimerEvent: {}
+[0.803631] (-) TimerEvent: {}
+[0.904268] (-) TimerEvent: {}
+[1.004900] (-) TimerEvent: {}
+[1.105550] (-) TimerEvent: {}
+[1.206218] (-) TimerEvent: {}
+[1.306937] (-) TimerEvent: {}
+[1.407599] (-) TimerEvent: {}
+[1.508247] (-) TimerEvent: {}
+[1.608972] (-) TimerEvent: {}
+[1.709608] (-) TimerEvent: {}
+[1.810299] (-) TimerEvent: {}
+[1.911082] (-) TimerEvent: {}
+[2.011770] (-) TimerEvent: {}
+[2.112500] (-) TimerEvent: {}
+[2.213267] (-) TimerEvent: {}
+[2.314079] (-) TimerEvent: {}
+[2.414905] (-) TimerEvent: {}
+[2.515684] (-) TimerEvent: {}
+[2.616422] (-) TimerEvent: {}
+[2.717101] (-) TimerEvent: {}
+[2.817881] (-) TimerEvent: {}
+[2.918666] (-) TimerEvent: {}
+[3.019402] (-) TimerEvent: {}
+[3.120086] (-) TimerEvent: {}
+[3.220774] (-) TimerEvent: {}
+[3.321496] (-) TimerEvent: {}
+[3.422222] (-) TimerEvent: {}
+[3.523016] (-) TimerEvent: {}
+[3.623804] (-) TimerEvent: {}
+[3.724490] (-) TimerEvent: {}
+[3.825217] (-) TimerEvent: {}
+[3.925924] (-) TimerEvent: {}
+[4.026653] (-) TimerEvent: {}
+[4.127372] (-) TimerEvent: {}
+[4.228261] (-) TimerEvent: {}
+[4.328946] (-) TimerEvent: {}
+[4.429672] (-) TimerEvent: {}
+[4.530377] (-) TimerEvent: {}
+[4.631110] (-) TimerEvent: {}
+[4.731820] (-) TimerEvent: {}
+[4.832536] (-) TimerEvent: {}
+[4.933231] (-) TimerEvent: {}
+[5.033992] (-) TimerEvent: {}
+[5.134699] (-) TimerEvent: {}
+[5.235444] (-) TimerEvent: {}
+[5.336146] (-) TimerEvent: {}
+[5.436848] (-) TimerEvent: {}
+[5.537590] (-) TimerEvent: {}
+[5.638310] (-) TimerEvent: {}
+[5.739026] (-) TimerEvent: {}
+[5.839706] (-) TimerEvent: {}
+[5.940413] (-) TimerEvent: {}
+[6.041140] (-) TimerEvent: {}
+[6.141855] (-) TimerEvent: {}
+[6.242596] (-) TimerEvent: {}
+[6.343339] (-) TimerEvent: {}
+[6.444059] (-) TimerEvent: {}
+[6.544764] (-) TimerEvent: {}
+[6.645473] (-) TimerEvent: {}
+[6.746207] (-) TimerEvent: {}
+[6.846937] (-) TimerEvent: {}
+[6.947637] (-) TimerEvent: {}
+[7.048333] (-) TimerEvent: {}
+[7.149067] (-) TimerEvent: {}
+[7.249803] (-) TimerEvent: {}
+[7.350523] (-) TimerEvent: {}
+[7.451344] (-) TimerEvent: {}
+[7.552089] (-) TimerEvent: {}
+[7.652782] (-) TimerEvent: {}
+[7.753491] (-) TimerEvent: {}
+[7.854214] (-) TimerEvent: {}
+[7.954961] (-) TimerEvent: {}
+[8.055653] (-) TimerEvent: {}
+[8.156353] (-) TimerEvent: {}
+[8.257040] (-) TimerEvent: {}
+[8.357797] (-) TimerEvent: {}
+[8.458488] (-) TimerEvent: {}
+[8.559238] (-) TimerEvent: {}
+[8.659942] (-) TimerEvent: {}
+[8.760707] (-) TimerEvent: {}
+[8.861522] (-) TimerEvent: {}
+[8.962319] (-) TimerEvent: {}
+[9.063125] (-) TimerEvent: {}
+[9.163824] (-) TimerEvent: {}
+[9.264600] (-) TimerEvent: {}
+[9.365398] (-) TimerEvent: {}
+[9.466121] (-) TimerEvent: {}
+[9.566880] (-) TimerEvent: {}
+[9.667585] (-) TimerEvent: {}
+[9.768300] (-) TimerEvent: {}
+[9.869013] (-) TimerEvent: {}
+[9.969763] (-) TimerEvent: {}
+[10.070553] (-) TimerEvent: {}
+[10.171281] (-) TimerEvent: {}
+[10.271982] (-) TimerEvent: {}
+[10.372719] (-) TimerEvent: {}
+[10.473426] (-) TimerEvent: {}
+[10.574182] (-) TimerEvent: {}
+[10.674910] (-) TimerEvent: {}
+[10.775601] (-) TimerEvent: {}
+[10.876303] (-) TimerEvent: {}
+[10.977055] (-) TimerEvent: {}
+[11.077778] (-) TimerEvent: {}
+[11.178596] (-) TimerEvent: {}
+[11.279516] (-) TimerEvent: {}
+[11.380228] (-) TimerEvent: {}
+[11.480946] (-) TimerEvent: {}
+[11.581673] (-) TimerEvent: {}
+[11.682363] (-) TimerEvent: {}
+[11.783120] (-) TimerEvent: {}
+[11.883817] (-) TimerEvent: {}
+[11.984513] (-) TimerEvent: {}
+[12.085254] (-) TimerEvent: {}
+[12.186187] (-) TimerEvent: {}
+[12.286913] (-) TimerEvent: {}
+[12.387645] (-) TimerEvent: {}
+[12.488436] (-) TimerEvent: {}
+[12.589294] (-) TimerEvent: {}
+[12.690123] (-) TimerEvent: {}
+[12.790942] (-) TimerEvent: {}
+[12.891642] (-) TimerEvent: {}
+[12.992352] (-) TimerEvent: {}
+[13.093101] (-) TimerEvent: {}
+[13.193807] (-) TimerEvent: {}
+[13.294538] (-) TimerEvent: {}
+[13.395337] (-) TimerEvent: {}
+[13.496032] (-) TimerEvent: {}
+[13.596747] (-) TimerEvent: {}
+[13.697459] (-) TimerEvent: {}
+[13.798166] (-) TimerEvent: {}
+[13.898937] (-) TimerEvent: {}
+[13.999660] (-) TimerEvent: {}
+[14.100337] (-) TimerEvent: {}
+[14.201056] (-) TimerEvent: {}
+[14.301779] (-) TimerEvent: {}
+[14.402517] (-) TimerEvent: {}
+[14.503265] (-) TimerEvent: {}
+[14.603976] (-) TimerEvent: {}
+[14.704682] (-) TimerEvent: {}
+[14.805379] (-) TimerEvent: {}
+[14.906113] (-) TimerEvent: {}
+[15.006865] (-) TimerEvent: {}
+[15.107550] (-) TimerEvent: {}
+[15.208259] (-) TimerEvent: {}
+[15.309000] (-) TimerEvent: {}
+[15.409711] (-) TimerEvent: {}
+[15.510418] (-) TimerEvent: {}
+[15.611169] (-) TimerEvent: {}
+[15.711865] (-) TimerEvent: {}
+[15.812575] (-) TimerEvent: {}
+[15.913274] (-) TimerEvent: {}
+[16.013959] (-) TimerEvent: {}
+[16.114916] (-) TimerEvent: {}
+[16.215918] (-) TimerEvent: {}
+[16.316588] (-) TimerEvent: {}
+[16.417332] (-) TimerEvent: {}
+[16.518040] (-) TimerEvent: {}
+[16.618796] (-) TimerEvent: {}
+[16.719516] (-) TimerEvent: {}
+[16.820275] (-) TimerEvent: {}
+[16.921189] (-) TimerEvent: {}
+[17.022094] (-) TimerEvent: {}
+[17.068237] (ads1115) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable battery_monitor\x1b[0m\n'}
+[17.122280] (-) TimerEvent: {}
+[17.223015] (-) TimerEvent: {}
+[17.323773] (-) TimerEvent: {}
+[17.424651] (-) TimerEvent: {}
+[17.525552] (-) TimerEvent: {}
+[17.626500] (-) TimerEvent: {}
+[17.727321] (-) TimerEvent: {}
+[17.828032] (-) TimerEvent: {}
+[17.928854] (-) TimerEvent: {}
+[18.008493] (ads1115) StdoutLine: {'line': b'[100%] Built target battery_monitor\n'}
+[18.029156] (-) TimerEvent: {}
+[18.044681] (ads1115) CommandEnded: {'returncode': 0}
+[18.129333] (-) TimerEvent: {}
+[18.166615] (ads1115) JobProgress: {'identifier': 'ads1115', 'progress': 'install'}
+[18.199621] (ads1115) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ws/build/ads1115'], 'cwd': '/home/user/ws/build/ads1115', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,1138,0'), ('USER', 'user'), ('SSH_CLIENT', '192.168.88.186 59532 22'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ws/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('PWD', '/home/user/ws/build/ads1115'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.88.186 59532 192.168.88.93 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[18.229559] (-) TimerEvent: {}
+[18.230894] (ads1115) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.232072] (ads1115) StdoutLine: {'line': b'-- Installing: /home/user/ws/install/ads1115/lib/ads1115/battery_monitor\n'}
+[18.241746] (ads1115) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ws/install/ads1115/lib/ads1115/battery_monitor" to ""\n'}
+[18.242313] (ads1115) StdoutLine: {'line': b'-- Up-to-date: /home/user/ws/install/ads1115/share/ament_index/resource_index/package_run_dependencies/ads1115\n'}
+[18.242718] (ads1115) StdoutLine: {'line': b'-- Up-to-date: /home/user/ws/install/ads1115/share/ament_index/resource_index/parent_prefix_path/ads1115\n'}
+[18.243199] (ads1115) StdoutLine: {'line': b'-- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/environment/ament_prefix_path.sh\n'}
+[18.243579] (ads1115) StdoutLine: {'line': b'-- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/environment/ament_prefix_path.dsv\n'}
+[18.243948] (ads1115) StdoutLine: {'line': b'-- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/environment/path.sh\n'}
+[18.244365] (ads1115) StdoutLine: {'line': b'-- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/environment/path.dsv\n'}
+[18.244713] (ads1115) StdoutLine: {'line': b'-- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/local_setup.bash\n'}
+[18.245090] (ads1115) StdoutLine: {'line': b'-- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/local_setup.sh\n'}
+[18.245507] (ads1115) StdoutLine: {'line': b'-- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/local_setup.zsh\n'}
+[18.245828] (ads1115) StdoutLine: {'line': b'-- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/local_setup.dsv\n'}
+[18.246107] (ads1115) StdoutLine: {'line': b'-- Installing: /home/user/ws/install/ads1115/share/ads1115/package.dsv\n'}
+[18.246500] (ads1115) StdoutLine: {'line': b'-- Up-to-date: /home/user/ws/install/ads1115/share/ament_index/resource_index/packages/ads1115\n'}
+[18.246984] (ads1115) StdoutLine: {'line': b'-- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/cmake/ads1115Config.cmake\n'}
+[18.247411] (ads1115) StdoutLine: {'line': b'-- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/cmake/ads1115Config-version.cmake\n'}
+[18.247752] (ads1115) StdoutLine: {'line': b'-- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/package.xml\n'}
+[18.251995] (ads1115) CommandEnded: {'returncode': 0}
+[18.329737] (-) TimerEvent: {}
+[18.430417] (-) TimerEvent: {}
+[18.451285] (ads1115) JobEnded: {'identifier': 'ads1115', 'rc': 0}
+[18.453885] (-) EventReactorShutdown: {}

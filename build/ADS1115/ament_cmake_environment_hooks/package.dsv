@@ -1,0 +1,4 @@
+source;share/ADS1115/local_setup.bash
+source;share/ADS1115/local_setup.dsv
+source;share/ADS1115/local_setup.sh
+source;share/ADS1115/local_setup.zsh

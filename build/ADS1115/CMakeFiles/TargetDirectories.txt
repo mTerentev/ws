@@ -1,0 +1,10 @@
+/home/user/ws/build/ADS1115/CMakeFiles/uninstall.dir
+/home/user/ws/build/ADS1115/CMakeFiles/ADS1115_uninstall.dir
+/home/user/ws/build/ADS1115/CMakeFiles/battery_monitor.dir
+/home/user/ws/build/ADS1115/CMakeFiles/test.dir
+/home/user/ws/build/ADS1115/CMakeFiles/edit_cache.dir
+/home/user/ws/build/ADS1115/CMakeFiles/rebuild_cache.dir
+/home/user/ws/build/ADS1115/CMakeFiles/list_install_components.dir
+/home/user/ws/build/ADS1115/CMakeFiles/install.dir
+/home/user/ws/build/ADS1115/CMakeFiles/install/local.dir
+/home/user/ws/build/ADS1115/CMakeFiles/install/strip.dir

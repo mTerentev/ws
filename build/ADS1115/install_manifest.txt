@@ -1,0 +1,16 @@
+/home/user/ws/install/ADS1115/lib/ADS1115/battery_monitor
+/home/user/ws/install/ADS1115/share/ament_index/resource_index/package_run_dependencies/ADS1115
+/home/user/ws/install/ADS1115/share/ament_index/resource_index/parent_prefix_path/ADS1115
+/home/user/ws/install/ADS1115/share/ADS1115/environment/ament_prefix_path.sh
+/home/user/ws/install/ADS1115/share/ADS1115/environment/ament_prefix_path.dsv
+/home/user/ws/install/ADS1115/share/ADS1115/environment/path.sh
+/home/user/ws/install/ADS1115/share/ADS1115/environment/path.dsv
+/home/user/ws/install/ADS1115/share/ADS1115/local_setup.bash
+/home/user/ws/install/ADS1115/share/ADS1115/local_setup.sh
+/home/user/ws/install/ADS1115/share/ADS1115/local_setup.zsh
+/home/user/ws/install/ADS1115/share/ADS1115/local_setup.dsv
+/home/user/ws/install/ADS1115/share/ADS1115/package.dsv
+/home/user/ws/install/ADS1115/share/ament_index/resource_index/packages/ADS1115
+/home/user/ws/install/ADS1115/share/ADS1115/cmake/ADS1115Config.cmake
+/home/user/ws/install/ADS1115/share/ADS1115/cmake/ADS1115Config-version.cmake
+/home/user/ws/install/ADS1115/share/ADS1115/package.xml

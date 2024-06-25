@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target battery_monitor[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o[0m
+[100%] [32m[1mLinking CXX executable battery_monitor[0m
+[100%] Built target battery_monitor
+-- Install configuration: ""
+-- Installing: /home/user/ws/install/ads1115/lib/ads1115/battery_monitor
+-- Set runtime path of "/home/user/ws/install/ads1115/lib/ads1115/battery_monitor" to ""
+-- Up-to-date: /home/user/ws/install/ads1115/share/ament_index/resource_index/package_run_dependencies/ads1115
+-- Up-to-date: /home/user/ws/install/ads1115/share/ament_index/resource_index/parent_prefix_path/ads1115
+-- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/environment/ament_prefix_path.sh
+-- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/environment/path.sh
+-- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/environment/path.dsv
+-- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/local_setup.bash
+-- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/local_setup.sh
+-- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/local_setup.zsh
+-- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/local_setup.dsv
+-- Installing: /home/user/ws/install/ads1115/share/ads1115/package.dsv
+-- Up-to-date: /home/user/ws/install/ads1115/share/ament_index/resource_index/packages/ads1115
+-- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/cmake/ads1115Config.cmake
+-- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/cmake/ads1115Config-version.cmake
+-- Up-to-date: /home/user/ws/install/ads1115/share/ads1115/package.xml

@@ -1,0 +1,11 @@
+[0.042s] Invoking command in '/home/user/ws/build/ads1115': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ws/build/ads1115 -- -j4 -l4
+[0.209s] [35m[1mConsolidate compiler generated dependencies of target battery_monitor[0m
+[0.291s] [ 50%] [32mBuilding CXX object CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o[0m
+[1.669s] [01m[K/home/user/ws/src/ads1115/src/battery_monitor.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/battery_state.hpp: No such file or directory
+[1.670s]    10 | #include [01;31m[K"sensor_msgs/msg/battery_state.hpp"[m[K
+[1.670s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.670s] compilation terminated.
+[1.682s] gmake[2]: *** [CMakeFiles/battery_monitor.dir/build.make:76: CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o] Error 1
+[1.682s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/battery_monitor.dir/all] Error 2
+[1.683s] gmake: *** [Makefile:146: all] Error 2
+[1.689s] Invoked command in '/home/user/ws/build/ads1115' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ws/build/ads1115 -- -j4 -l4
